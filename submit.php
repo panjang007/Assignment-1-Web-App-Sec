@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validation regex patterns
     $namePattern = "/^[a-zA-Z\s]+$/";
-    $matricNoPattern = "/^[A-Za-z0-9]+$/";
+    $matricNoPattern = "/^[0-9]+$/";
     $addressPattern = "/^[A-Za-z0-9\s\.,\-]+$/";
     $emailPattern = "/^[^\s@]+@[^\s@]+\.[^\s@]+$/";
     $phonePattern = "/^\d{10,15}$/";
